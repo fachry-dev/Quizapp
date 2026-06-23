@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modern Quiz App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="app.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="quiz-header">
+        <div class="score-badge">Score: <span id="right-answers">0</span></div>
+      </div>
+
+      <div id="question-container" class="hide">
+        <div id="question">Question Text</div>
+        <div id="answer-buttons" class="btn-grid"></div>
+      </div>
+
+      <div class="controls">
+        <button id="start-btn" class="start-btn btn-action">Start Quiz</button>
+        <button id="next-btn" class="next-btn btn-action hide">
+          Next Question →
+        </button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
