@@ -20,6 +20,14 @@ A simple, interactive, and beautifully designed Quiz Application built with pure
 
 ---
 
+## ⚙️ How to Run Locally
+- **1. Clone the repository**:git clone [https://github.com/fachry-dev/Quizapp.git](https://github.com/fachry-dev/Quizapp.git)
+- **2. Navigate into the project directory:**cd Quizapp/htmlquiz
+- **3.Open the project::**
+Double-click index.html to open it directly in your browser.
+Alternative (Recommended): Right-click index.html and select Open with Live Server if you are using VS Code.
+---
+
 ## 📂 Project Structure
 
 ```text
@@ -28,11 +36,3 @@ Quizapp/
     ├── index.html    # The main structural skeleton
     ├── app.css       # Clean, modern styles and dark-theme layout
     └── script.js     # Quiz state, shuffling logic, and DOM manipulations
----
-
-## ⚙️ How to Run Locally
-- **1. Clone the repository**:git clone [https://github.com/fachry-dev/Quizapp.git](https://github.com/fachry-dev/Quizapp.git)
-- **2. Navigate into the project directory:**cd Quizapp/htmlquiz
-- **3.Open the project::**
-Double-click index.html to open it directly in your browser.
-Alternative (Recommended): Right-click index.html and select Open with Live Server if you are using VS Code.
